@@ -1,0 +1,29 @@
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+**/venv/
+**/.venv/
+
+# VS Code
+.vscode/
+
+# Dataset (NÃO subir)
+dataset/*
+
+# Models pesados
+models/*.pt
+
+# Results
+results/*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
