@@ -1,5 +1,5 @@
 from ultralytics import YOLO
-from config import DATASET_DIR, RESULTS_DIR, MODEL_NAME, EPOCHS, IMG_SIZE, BATCH_SIZE, RUN_NAME
+from config import DATASET_DIR, OUTPUTS_DIR, MODEL_NAME, EPOCHS, IMG_SIZE, BATCH_SIZE, RUN_NAME
 
 
 def main():
@@ -10,8 +10,8 @@ def main():
         epochs=EPOCHS,
         imgsz=IMG_SIZE,
         batch=BATCH_SIZE,
-        project=str(RESULTS_DIR),
-        name=RUN_NAME
+        project=str(OUTPUTS_DIR),
+        name=RUN_NAME,
     )
 
 

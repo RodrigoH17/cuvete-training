@@ -3,13 +3,11 @@
 *.pyc
 *.pyo
 *.pyd
+*.pt
 
 # Python virtual environment
 **/venv/
 **/.venv/
-
-# VS Code
-.vscode/
 
 # Dataset (NÃO subir)
 dataset/*
@@ -27,3 +25,9 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Outputs do treino (NÃO subir)
+outputs/
+
+# Logs
+*.log
